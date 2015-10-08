@@ -8,7 +8,11 @@
     "url": "https://github.com/oehokie/node-whistle.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jasmine"
   },
-  "author": "Matt Martz"
+  "author": "Matt Martz",
+  "dependencies": {
+    "jasmine": "^2.3.2",
+    "q": "^1.4.1"
+  }
 }
